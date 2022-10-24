@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGSuite">
+	<test name="TestNGParameters">
+		<parameter name="mrf" value="Muhammad Rana Farhan"></parameter>
+		<parameter name="rumi" value="Muhammad Rana Rumman"></parameter>
+		<parameter name="chromeProp" value="webdriver.chrome.driver"></parameter>
+		<parameter name="chromePath" value="C:\\Users\\eBricks\\eclipseExtFiles\\ChromeDriver95\\chromedriver.exe"></parameter>
+		<parameter name="siteURL" value="https://courses.letskodeit.com/practice"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="mrf.testng.TestNGParameters"></class>
+		</classes>
+	</test>
+</suite>
+
+

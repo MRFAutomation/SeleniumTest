@@ -1,0 +1,4 @@
+23:09:07.678 INFO  logging.LoggingDemoClass -Info log message
+23:09:07.684 WARN  logging.LoggingDemoClass -Warning log message
+23:09:07.684 ERROR logging.LoggingDemoClass -Error log message
+23:09:07.684 FATAL logging.LoggingDemoClass -Fatal log message

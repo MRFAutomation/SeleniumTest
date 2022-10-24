@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGSuite">
+	<test name="TestNGParameters">
+		<classes>
+			<class name="mrf.extentreports.LoginTest"></class>
+			<class name="mrf.extentreports.TestNGNewTest"></class>
+		</classes>
+	</test>
+</suite>
+
+

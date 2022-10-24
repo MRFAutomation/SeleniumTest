@@ -1,0 +1,12 @@
+<suite name="TestNGSuite">
+<test name="TestNGAnnotations1">
+	<classes>
+		<class name="mrf.testng.TestNGAnnotations1"></class>
+	</classes>
+</test>
+<test name="TestNGAnnotations2">
+	<classes>
+		<class name="mrf.testng.TestNGAnnotations2"></class>
+	</classes>
+</test>
+</suite>

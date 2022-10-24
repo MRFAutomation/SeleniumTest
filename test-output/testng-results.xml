@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-28T17:24:05 PKT" name="Default suite" finished-at="2022-09-28T17:24:17 PKT" duration-ms="12258">
+    <groups>
+    </groups>
+    <test started-at="2022-09-28T17:24:05 PKT" name="Default test" finished-at="2022-09-28T17:24:17 PKT" duration-ms="12258">
+      <class name="mrf.excel.read.LoginTestWithExcel">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:mrf.excel.read.LoginTestWithExcel@6572421]" started-at="2022-09-28T17:24:05 PKT" name="setUp" finished-at="2022-09-28T17:24:07 PKT" duration-ms="2437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTestCase(java.lang.String,java.lang.String)[pri:0, instance:mrf.excel.read.LoginTestWithExcel@6572421]" started-at="2022-09-28T17:24:07 PKT" name="loginTestCase" data-provider="invalidLoginData" finished-at="2022-09-28T17:24:13 PKT" duration-ms="6138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method signature="loginTestCase(java.lang.String,java.lang.String)[pri:0, instance:mrf.excel.read.LoginTestWithExcel@6572421]" started-at="2022-09-28T17:24:13 PKT" name="loginTestCase" data-provider="invalidLoginData" finished-at="2022-09-28T17:24:15 PKT" duration-ms="1585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method signature="loginTestCase(java.lang.String,java.lang.String)[pri:0, instance:mrf.excel.read.LoginTestWithExcel@6572421]" started-at="2022-09-28T17:24:15 PKT" name="loginTestCase" data-provider="invalidLoginData" finished-at="2022-09-28T17:24:17 PKT" duration-ms="1691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestCase -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:mrf.excel.read.LoginTestWithExcel@6572421]" started-at="2022-09-28T17:24:17 PKT" name="cleanUp" finished-at="2022-09-28T17:24:17 PKT" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- mrf.excel.read.LoginTestWithExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

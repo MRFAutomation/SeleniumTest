@@ -1,0 +1,10 @@
+11:18:21.676 TRACE testng.TestAnnotations -Trace log message
+11:18:21.678 DEBUG testng.TestAnnotations -Debug log message
+11:18:21.678 INFO  testng.TestAnnotations -Info log message
+11:18:21.678 WARN  testng.TestAnnotations -Warning log message
+11:18:21.679 ERROR testng.TestAnnotations -Error log message
+11:18:21.679 FATAL testng.TestAnnotations -Fatal log message
+11:19:20.617 INFO  logging.LoggingDemoClass -Info log message
+11:19:20.619 WARN  logging.LoggingDemoClass -Warning log message
+11:19:20.619 ERROR logging.LoggingDemoClass -Error log message
+11:19:20.619 FATAL logging.LoggingDemoClass -Fatal log message
